@@ -12,7 +12,9 @@ import JobDetails from "./components/JobDetails";
 
 import "./index.css";
 function App() {
-  
+  return (
+   
+  );
 }
 
 export default App;
