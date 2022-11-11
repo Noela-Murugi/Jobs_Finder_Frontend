@@ -41,3 +41,15 @@
 
 }
 
+.categories-input input{
+    width: 250px;
+    align-items: center;
+    height: 30px;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: none;
+    margin-bottom: 15px;
+}
