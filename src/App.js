@@ -11,6 +11,8 @@ import JobDetails from "./components/JobDetails";
 
 
 import "./index.css";
-
+function App() {
+  
+}
 
 export default App;
