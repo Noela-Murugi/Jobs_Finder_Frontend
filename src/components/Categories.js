@@ -46,6 +46,7 @@ const Categories = () => {
       <div className='category-main'>
         <h1 className='popular'>JOBS</h1>
         <div className='category-buttons'>
+          <button onClick={() => setFilter(jobs)}>All</button>
           <button onClick={() => filterJobs("Artificial Intelligence")}>Artificial Intelligence</button>
           <button onClick={() => filterJobs("Software Development")}>Software Development</button>
           <button onClick={() => filterJobs("Cyber Security")}>Cyber Security</button>
