@@ -28,6 +28,10 @@ Jobs Finder is a web application where job seekers can be able to view available
 
 ![Screenshot from 2022-11-11 13-39-49.png](https://github.com/Noela-Murugi/Jobs_Finder_Frontend/blob/main/job.png)
 
+## Listed jobs
+
+![Screenshot from 2022-11-11 13-39-49.png](https://github.com/Noela-Murugi/Jobs_Finder_Frontend/blob/main/jobslist.png)
+
 
 ## Technologies Used
 
