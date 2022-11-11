@@ -34,4 +34,10 @@
     border-radius: 5px;
 }
 
+.categories-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
