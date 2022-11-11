@@ -3,7 +3,7 @@
     --blue: #0F298B;
     --white: #FAFAFA;
 }
-/* 
+/*
 * {
     padding: 0;
     margin: 0;
@@ -26,7 +26,7 @@ nav  {
 label.logo {
     font-size: 35px;
     line-height: 80px;
-    color: var(--blue);
+    color: #4FAA83;
     font-weight: 700;
 }
 
