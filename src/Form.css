@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#file-selector {
+  opacity: 0;
+  font-size: 100px;
+}
+
+.form {
+  align-items: center;
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: calc(100vh - 80px);
+  justify-items: center;
+  width: 100vw;
+  margin-top: -50px;
+}
+
+
+.signup-container {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+}
+
+.left-container {
+  overflow: hidden;
+  padding: 40px 0 0 0;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8am9icyUyMGZpbmRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  text-align: center;
+  /* padding-top:200px; */
+  width: 300px;
+  margin-bottom: 68px;
+}
+.left-container h1 {
+  color: white;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.right-container {
+  background: #4FAA83;
+  display: grid;
+  grid-template-areas: "." ".";
+  width: 500px;
+}
+.right-container h1:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 28px;
+  font-weight: 600;
+}
+.right-container .set {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.right-container input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.right-container input,
+.right-container label {
+  color: rgba(0, 0, 0, 0.8);
+}
+.right-container header {
+  padding: 40px;
+}
+.right-container label,
+.right-container input,
+.right-container .pets-photo {
+  width: 176px;
+}
+.right-container .pets-photo {
+  align-items: center;
+  display: grid;
+  grid-template-areas: ". .";
+}
+.right-container .pets-photo button {
+  border: none;
+  border-radius: 50%;
+  height: 38px;
+  margin-right: 10px;
+  outline: none;
+  width: 38px;
+}
+.right-container .pets-photo button i {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+.right-container .pets-weight .radio-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-container footer {
+  align-items: center;
+  background: #e1f6ea;
+  display: grid;
+  padding: 5px 40px;
+}
+.right-container footer button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 19px;
+  font-family: "Montserrat", sans-serif;
+}
+.right-container footer #back {
+  background: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.right-container footer #back:hover {
+  background: #171a2b;
+  color: white;
+}
+.right-container footer #next {
+  background: #4FAA83;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.right-container footer #next:hover {
+  background: #171a2b;
+}
+
+
+.pets-name label,
+.pets-breed label,
+.pets-birthday label,
+.pets-gender label,
+.pets-spayed-neutered label,
+.pets-weight label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.radio-container {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.radio-container label {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
+  width: 80px;
+}
+
+.radio-container input {
+  width: 100%;
+}
+
+.radio-container input[type="radio"]:checked + label {
+  background: #f7b1ab;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 740px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .signup-container {
+    display: block;
+    width: 100%;
+  }
+  .left-container {
+    width: 100%;
+    height: 30%;
+    display: none;
+  }
+  .right-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-container .set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
