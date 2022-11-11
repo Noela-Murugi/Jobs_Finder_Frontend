@@ -56,7 +56,9 @@ function About() {
       <button id="vbutton" className="btnn">Send Now</button>
 
     </div>
+      <div className="row">
 
+      </div>
     </>
   );
 }
