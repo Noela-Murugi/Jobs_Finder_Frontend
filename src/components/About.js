@@ -12,6 +12,50 @@ function About() {
             covered.
           </p>
       </div>
+				<div className="part3">
+					<div className="part3img">
+						<img src="../happy.png" alt="" />
+					</div>
+					<div className="part3t">
+						<div className="part3title tproduct">
+							<h2>Why you should choose us.</h2>
+							<p className="recomendation-dsn">
+								Various employees use this site to advertise jobs.<br></br>  Thus its easier to get a job via this platform.
+							</p>
+							<div className="checks">
+								<div className="checkr1">
+									<div className="checkc">
+										<span className="material-symbols-rounded">
+											select_check_box
+										</span>
+										<label for="World Class">World class</label>
+									</div>
+									<div className="checkc">
+										<span className="material-symbols-rounded">
+											select_check_box
+										</span>
+										<label for="Trusted"> Trusted</label>
+									</div>
+								</div>
+								<div className="checkr2">
+									<div className="checkc">
+										<span className="material-symbols-rounded">
+											select_check_box
+										</span>
+										<label for="Affordable">Convenient</label>
+									</div>
+									<div className="checkc">
+										<span className="material-symbols-rounded">
+											select_check_box
+										</span>
+										<label for="Amenities">Easier</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 
       <div id="about" className="container-fluid">
 
@@ -57,7 +101,7 @@ function About() {
 
     </div>
       <div className="row">
-
+       
       </div>
     </>
   );
