@@ -1,0 +1,45 @@
+.landing{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 8em;
+  height: calc(100vh - 80px);
+}
+
+.landing div {
+  width: 50%;
+}
+
+.anything {
+  color: #4faa83;
+  font-weight: bold;
+}
+
+.welcome-message h1{
+  font-weight: bolder;
+  font-size: 65px;
+}
+
+.welcome-message h3 {
+  color: #616161d5;
+  font-size: 20px;
+  margin-top: 1.5em;
+}
+
+.button {
+  padding: 8px 30px;
+  margin-top: 2em;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #4faa83;
+  color: white;
+}
+
+.hero-image img {
+  width: 100%;
+}
