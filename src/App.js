@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import JobDetails from "./components/JobDetails";
 
 
+import "./index.css";
 
 
 export default App;
