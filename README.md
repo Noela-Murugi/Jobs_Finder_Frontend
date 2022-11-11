@@ -66,6 +66,7 @@ npm start
 
 ## Live Page
 This system requires a database running on the background
+[Frontend Display](http://jobs-finder-frontend.vercel.app/)
 
 ## Contact Informantion
 Incase of any enquiries or contributions, be sure to email us at :
