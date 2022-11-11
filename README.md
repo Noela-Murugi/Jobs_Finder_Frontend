@@ -9,7 +9,7 @@
 ## Description
 Jobs Finder is a web application where job seekers can be able to view available jobs and <br> where employers can be able to post new jobs.
 <br>
-![Backend Link](https://github.com/WMCharles/Phase-3-Back-Repo)
+[Backend Link](https://github.com/WMCharles/Phase-3-Back-Repo)
 
 ## Project Features
 
