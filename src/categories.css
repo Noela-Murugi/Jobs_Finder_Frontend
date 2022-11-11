@@ -25,3 +25,13 @@
     margin-bottom: 1em;
 }
 
+.category-buttons button{
+    margin: 0 1em;
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 5px;
+}
+
+
