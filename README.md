@@ -65,7 +65,7 @@ npm start
 5. Create the pull request.
 
 ## Live Page
-This system requires a database running on the background
+This system requires some Backend linking to fully display<br>
 [Frontend Display](http://jobs-finder-frontend.vercel.app/)
 
 ## Contact Informantion
