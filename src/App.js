@@ -13,7 +13,24 @@ import JobDetails from "./components/JobDetails";
 import "./index.css";
 function App() {
   return (
-   
+    <div className="App">
+      <NavBar />
+      <Routes>
+        <Route exact="true" path="/" element={<Home />}/>
+        <Route exact="true" path="/postjob" element={<PostForm />}/>
+        <Route exact="true" path="/about" element={<About />}/>
+        <Route exact="true" path="/jobs" element={<Categories />}/>
+        <Route path="/jobs/:id" element={<JobDetails />}/>
+        <Route/>
+      </Routes>
+      <>
+
+      </>
+      <>
+      <Footer />
+
+      </>
+    </div>
   );
 }
 
