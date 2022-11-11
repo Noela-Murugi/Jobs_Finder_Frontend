@@ -1,7 +1,7 @@
 # Jobs_Finder
 ## Authors
 + Wangechi Wambui(Backend)<br>
-+ [Noela Murugi (Frontend)<br>
++ Noela Murugi (Frontend)<br>
 + Charles Wafula (Backend)<br>
 + Bob Omondi (Backend)<br>
 + Ali Mukhtar(Frontend)
@@ -20,10 +20,12 @@ Jobs Finder is a web application where job seekers can be able to view available
 ## Sample Screenshots
 ### Home Page
 
-Screenshot from 2022-11-11 13-39-36.png
+![Screenshot from 2022-11-11 13-39-36.png]
+![Screenshot from 2022-09-01 15-23-19](https://user-images.githubusercontent.com/97957631/187915544-caca2a0b-7706-4919-9234-16b1e02da03a.png)
+
 ## Post Job
 
-Screenshot from 2022-11-11 13-39-49.png
+![Screenshot from 2022-11-11 13-39-49.png]
 
 ## Technologies Used
 
