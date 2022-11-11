@@ -1,23 +1,40 @@
 # Jobs_Finder
 ## Authors
-+ [Wangechi Wambui(Backend)]<br>
-+ [Noela Murugi (Frontend)]<br>
-+ [Charles Wafula (Backend)]<br>
-+ [Bob Omondi (Backend)]<br>
-+ [Ali Mukhtar(Frontend)]
++ Wangechi Wambui(Backend)<br>
++ [Noela Murugi (Frontend)<br>
++ Charles Wafula (Backend)<br>
++ Bob Omondi (Backend)<br>
++ Ali Mukhtar(Frontend)
 
 ## Description
-Jobs Finder is a web application where job seekers can be able to view available jobs and also where employers can be able to post new jobs.
+Jobs Finder is a web application where job seekers can be able to view available jobs and <br> where employers can be able to post new jobs.
+
+## Project Features
+
+* Navigation Bar - navigating through different pages(components)
+* Home Page - Jobs Finder start section
+* About Page - Entails what Jobs Finder is about.
+* Jobs page - Displays various available jobs.
+* Post Job Page - Where a form is available for employers to post new jobs.
+
+## Sample Screenshots
+### Home Page
+
+Screenshot from 2022-11-11 13-39-36.png
+## Post Job
+
+Screenshot from 2022-11-11 13-39-49.png
+
 ## Technologies Used
 
 ### Frontend
-+ [ReactJs]<br>
-+ [CSS]<br>
++ ReactJs<br>
++ CSS<br>
 
 ### Backend
-+ [SQLite]<br>
-+ [Ruby]<br>
-+ [Sinatra]<br>
++ SQLite<br>
++ Ruby<br>
++ Sinatra<br>
 
 ## Setup instructions
 Clone the repository
@@ -48,11 +65,11 @@ This system requires a database running on the background
 
 ## Contact Informantion
 Incase of any enquiries or contributions, be sure to email us at :
-+ [noela.murugi@student.moringaschool.com]
-+ [wangechi.wambui@student.moringaschool.com]
-+ [charles.wafula@student.moringaschool.com]
-+ [ali.mukhtar@student.moringaschool.com]
-+ [bob.omondi@student.moringaschool.com]
++ noela.murugi@student.moringaschool.com
++ wangechi.wambui@student.moringaschool.com
++ charles.wafula@student.moringaschool.com
++ ali.mukhtar@student.moringaschool.com
++ bob.omondi@student.moringaschool.com
 
 
 ## License
