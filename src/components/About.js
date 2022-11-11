@@ -12,7 +12,7 @@ function About() {
             covered.
           </p>
       </div>
-				
+
       <div id="about" className="container-fluid">
 
       </div>
@@ -48,17 +48,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-    <div className="fcontainer">
-      <h2 className="top">Get Our Newsletter</h2>
-      <p>To join the worldwide community</p>
-
-      <input id="email" type="email" placeholder="Enter your email address" name="email" required></input>
-      <button id="vbutton" className="btnn">Send Now</button>
-
-    </div>
-      <div className="row">
-
-      </div>
+    
     </>
   );
 }
